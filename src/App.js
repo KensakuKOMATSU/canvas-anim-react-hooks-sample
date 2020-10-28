@@ -48,6 +48,9 @@ function App() {
 
   return (
     <div>
+      <div>
+      Use `cursor keys` to move balls!
+      </div>
       <CanvasPallette balls={balls} />
     </div>
   );
